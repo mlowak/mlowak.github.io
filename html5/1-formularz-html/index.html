@@ -6,6 +6,30 @@
     <title>Document</title>
 </head>
 <body>
-    <p>JESTEM PARAFKA</p>
+    <h1>Zapis uczestnika na szkolenie</h1>
+    
+    <form action="https://formspree.io/mbjzqkpy" method="POST">
+        <label for="fname">Imię:</label><br>
+        <input type="text" id="fname" name="Imię"><br><br>
+        <label for="lname">Nazwisko:</label><br>
+        <input type="text" id="lname" name="Nazwisko"><br><br>
+        <label for="mail">Mail:</label><br>
+        <input type="email" id="mail" name="E-mail"><br><br>
+        <label for="phone">Telefon:</label><br>
+        <input type="number" id="phone" name="Telefon"><br><br>
+        <label for="wybor-miasta">Wybór miasta:</label><br>
+        <select name="Miasto" id="wybor-miasta">
+            <option value="Krakow">Kraków</option>
+            <option value="Warszawa">Warszawa</option>
+            <option value="Gdansk">Gdansk</option>
+        </select><br><br>
+        <label for="gender">Płeć:</label><br>
+        <input type= "radio" name="Płeć">Mężczyzna
+        <input type= "radio" name="Płeć">Kobieta<br><br>
+        <input type= "checkbox" name="Zgoda">Zgoda na przetwarzanie danych osobistych.<br><br>
+        <label for="message">Wiadomość:</label><br>
+        <textarea maxlength="1000" name="Wiadomość"></textarea><br><br>
+        <input type="submit" value="Wyślij">
+      </form>
 </body>
 </html>
