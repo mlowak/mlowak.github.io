@@ -34,6 +34,7 @@ header {
 main {
     background-color: #00bfff;
     width: 60%;
+    text-transform: uppercase;
     order: 3;
 }
 
