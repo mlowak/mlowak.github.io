@@ -17,6 +17,6 @@ hr {
 }
 
 .btn:hover {
-    color: orange;
+    color: gray;
     outline: none;
 }
