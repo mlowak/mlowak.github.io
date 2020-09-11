@@ -1,0 +1,88 @@
+h1 {
+    text-align: center;
+    color: gray;
+    font-weight: 100;
+    font-size: 40px;
+}
+
+hr {
+    width: 200px;
+    border: 1px solid gray;
+    border-bottom: 0;
+}
+
+.social-links {
+    margin-top: 75px;
+}
+
+h2 {
+    color: gray;
+    font-weight: 100;
+    font-size: x-large;
+    vertical-align: middle;
+}
+
+.social-links .social-link {
+    font-size: 4em;
+    color: orange;
+}
+
+.fa-html5 {
+    background: lightgray;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 100px;
+    vertical-align: middle;
+}
+
+.fa-css3-alt {
+    background: lightgray;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 100px;
+    vertical-align: middle;
+}
+
+.fa-js {
+    background: lightgray;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 100px;
+    vertical-align: middle;
+}
+
+.fa-react {
+    background: lightgray;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 100px;
+    vertical-align: middle;
+}
+
+.fa-git {
+    background: lightgray;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 100px;
+    vertical-align: middle;
+}
+
+.fa-wordpress {
+    background: lightgray;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 100px;
+    vertical-align: middle;
+}
