@@ -25,9 +25,6 @@ h2 {
 .social-links .social-link {
     font-size: 4em;
     color: orange;
-}
-
-.fa-html5 {
     background: lightgray;
     width: 100px;
     height: 100px;
@@ -35,54 +32,6 @@ h2 {
     text-align: center;
     line-height: 100px;
     vertical-align: middle;
-}
-
-.fa-css3-alt {
-    background: lightgray;
-    width: 100px;
-    height: 100px;
-    border-radius: 50%;
-    text-align: center;
-    line-height: 100px;
-    vertical-align: middle;
-}
-
-.fa-js {
-    background: lightgray;
-    width: 100px;
-    height: 100px;
-    border-radius: 50%;
-    text-align: center;
-    line-height: 100px;
-    vertical-align: middle;
-}
-
-.fa-react {
-    background: lightgray;
-    width: 100px;
-    height: 100px;
-    border-radius: 50%;
-    text-align: center;
-    line-height: 100px;
-    vertical-align: middle;
-}
-
-.fa-git {
-    background: lightgray;
-    width: 100px;
-    height: 100px;
-    border-radius: 50%;
-    text-align: center;
-    line-height: 100px;
-    vertical-align: middle;
-}
-
-.fa-wordpress {
-    background: lightgray;
-    width: 100px;
-    height: 100px;
-    border-radius: 50%;
-    text-align: center;
-    line-height: 100px;
-    vertical-align: middle;
+    /* własciowsci w ccsie nie działają na elementy liniowe <-- przypomnij sobie!!*/
+    display: inline-block;
 }
