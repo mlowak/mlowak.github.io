@@ -1,0 +1,22 @@
+h1 {
+    text-align: center;
+    color: gray;
+    font-weight: 100;
+    font-size: 40px;
+}
+
+hr {
+    width: 200px;
+    border: 1px solid gray;
+    border-bottom: 0;
+}
+
+.btn {
+    color: orange;
+    outline: none;
+}
+
+.btn:hover {
+    color: orange;
+    outline: none;
+}
