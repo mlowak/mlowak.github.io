@@ -20,12 +20,15 @@
 
             .icon-about {
                 color: $color-text-primary;
-                width: $base-font-size * 4.5;
-                height: $base-font-size * 4.5;
+                width: $base-font-size + 80px;
+                height: $base-font-size + 80px;
                 border-radius: 100%;
-                line-height: $base-font-size * 4.5;
                 background-color: $color-primary;
                 margin: $margin-none auto $baseline;
+                text-align: center;
+                line-height: 100px;
+                vertical-align: middle;
+                display: inline-block
             }
         }
 	}
@@ -139,7 +142,7 @@
                 background: $color-portfolio-hover;
                 -webkit-transition: all .35s;
                 -moz-transition: all .35s;
-                transition: all .35s;
+                transition: all 1s;
 
                 .portfolio-box-caption-content {
                     position: absolute;
@@ -177,6 +180,9 @@
             border-radius: 100%;
             line-height: $base-font-size * 4.5;
             border: 2px solid $color-primary;
+            transform: rotate(-45deg);
+            transition-duration: .5s;
+            animation-timing-function: ease-in;
         }
 
 
@@ -188,9 +194,10 @@
             }
 
             .divider-light-dark {
-                width: $baseline * 2;
+                width: $baseline + 1px;
                 margin-left: $padding-none;
                 margin-bottom: 20px;
+                opacity: 50%;
             }
         }
     }
