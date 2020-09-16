@@ -10716,6 +10716,10 @@ blackquote cite:before {
 =====================================*/
 /***/
 /*==========  4.1 - Header styles  ==========*/
+.t108-header {
+  background-color: #f0f4dc;
+}
+
 header.header-image {
   position: relative;
   color: #ffffff;
@@ -11478,6 +11482,10 @@ header.header-image .header-content .header-content-inner h5 {
   background-color: #222222;
 }
 
+.t108-footer .btn-social {
+  font-size: 25px;
+}
+
 .t108-footer .footer-above {
   padding-top: 80px;
 }
@@ -11523,10 +11531,6 @@ header.header-image .header-content .header-content-inner h5 {
 
 .t108-footer .footer-above a:hover {
   color: #a5e200;
-}
-
-.t108-footer .footer-above .btn-social {
-  font-size: 25px;
 }
 
 .t108-footer .footer-above .btn-default:hover {
@@ -11947,12 +11951,14 @@ form fieldset input[name="comment"], form fieldset input[name="message"] {
   border-radius: 100%;
   line-height: 72px;
   border: 2px solid #a5e200;
-  -webkit-transform: rotate(-45deg);
-          transform: rotate(-45deg);
   -webkit-transition-duration: .5s;
           transition-duration: .5s;
-  -webkit-animation-timing-function: ease-in;
-          animation-timing-function: ease-in;
+}
+
+.t108-one-page #counters-services .icon-services:hover {
+  -webkit-transform: rotate(-45deg);
+          transform: rotate(-45deg);
+  cursor: pointer;
 }
 
 .t108-one-page #counters-services .counters-box {

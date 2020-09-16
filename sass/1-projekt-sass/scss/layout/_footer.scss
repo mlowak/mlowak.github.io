@@ -4,6 +4,10 @@
 .t108-footer {
 	background-color: $color-footer;
 
+	.btn-social {
+		font-size: 25px;
+	}
+
 	.footer-above {
 		padding-top: $baseline + 56px;
 
@@ -61,9 +65,6 @@
 		}
 
 		// TUTAJ
-		.btn-social {
-			font-size: 25px;
-		}
 
 		.btn-default:hover {
 			border-color: $color-primary;

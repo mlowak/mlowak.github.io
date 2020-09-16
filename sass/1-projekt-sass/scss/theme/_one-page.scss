@@ -180,11 +180,13 @@
             border-radius: 100%;
             line-height: $base-font-size * 4.5;
             border: 2px solid $color-primary;
-            transform: rotate(-45deg);
             transition-duration: .5s;
-            animation-timing-function: ease-in;
-        }
 
+            &:hover {
+                transform: rotate(-45deg);
+                cursor: pointer;
+            }
+        }
 
         .counters-box {
             margin: $margin-none auto ($baseline * 3);
