@@ -11233,6 +11233,7 @@ header.header-image .header-content .header-content-inner h5 {
   font-size: 48px;
   margin-top: 24px;
   margin-bottom: 24px;
+  text-transform: uppercase;
 }
 
 #main-slider .carousel-caption p {
@@ -11259,7 +11260,6 @@ header.header-image .header-content .header-content-inner h5 {
   }
   #main-slider .carousel-caption p, #main-slider .carousel-caption h1 {
     color: #ffffff;
-    text-transform: capitalize;
   }
   #main-slider .carousel-caption h1 {
     font-size: 36px;
@@ -11289,7 +11289,6 @@ header.header-image .header-content .header-content-inner h5 {
   }
   #main-slider .carousel-caption p, #main-slider .carousel-caption h1 {
     color: #ffffff;
-    text-transform: capitalize;
   }
   #main-slider .carousel-caption h1 {
     font-size: 26px;
@@ -11319,7 +11318,6 @@ header.header-image .header-content .header-content-inner h5 {
   }
   #main-slider .carousel-caption p, #main-slider .carousel-caption h1 {
     color: #ffffff;
-    text-transform: capitalize;
   }
   #main-slider .carousel-caption h1 {
     font-size: 21px;
@@ -11349,7 +11347,6 @@ header.header-image .header-content .header-content-inner h5 {
   }
   #main-slider .carousel-caption p, #main-slider .carousel-caption h1 {
     color: #ffffff;
-    text-transform: capitalize;
   }
   #main-slider .carousel-caption h1 {
     font-size: 18px;
@@ -11384,7 +11381,6 @@ header.header-image .header-content .header-content-inner h5 {
   }
   #main-slider .carousel-caption p, #main-slider .carousel-caption h1 {
     color: #ffffff;
-    text-transform: capitalize;
   }
   #main-slider .carousel-caption h1 {
     font-size: 12px;

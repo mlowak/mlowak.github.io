@@ -54,6 +54,7 @@
 			font-size: $base-font-size + 32;
 			margin-top: $baseline;
 			margin-bottom: $baseline;
+			text-transform: $text-transform-base;
 		}
 
 		p {
@@ -83,7 +84,6 @@
 
 			p, h1 {	
 				color: $color-text-primary;
-				text-transform: capitalize;
 			}
 
 			h1 {
@@ -120,7 +120,6 @@
 
 			p, h1 {	
 				color: $color-text-primary;
-				text-transform: capitalize;
 			}
 
 			h1 {
@@ -157,7 +156,6 @@
 
 			p, h1 {	
 				color: $color-text-primary;
-				text-transform: capitalize;
 			}
 
 			h1 {
@@ -194,7 +192,6 @@
 
 			p, h1 {	
 				color: $color-text-primary;
-				text-transform: capitalize;
 			}
 
 			h1 {
@@ -236,7 +233,6 @@
 
 			p, h1 {	
 				color: $color-text-primary;
-				text-transform: capitalize;
 			}
 
 			h1 {
